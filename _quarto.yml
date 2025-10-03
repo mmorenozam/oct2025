@@ -1,0 +1,51 @@
+project: 
+  type: website
+  render: 
+    - "*.qmd"
+  output-dir: docs
+
+from: markdown+emoji
+
+website: 
+  title: "Ejemplo"
+  image: images/icon1.png
+  favicon: images/icon1.png
+  open-graph: true
+  # repo-url: https://github.com/mmorenozam/biohack-website
+  navbar:
+    logo: images/icon1.png
+    title: false
+    left: 
+      - href: inicio.qmd
+        text: Inicio
+      - href: recursos.qmd
+      - text: Módulos
+        menu:
+          - text: "Módulo 1"
+            href: https://mmorenozam.github.io/biohack-modulo1/
+            target: "_blank"
+      - text: Ejercicios
+        menu:
+          - text: "Demo"
+            href: ej_demo.qmd
+      #     - text: "Ejercicios Módulo 1"
+      #       href: ejercicios_m1.qmd
+      #     - text: "Ejercicios Módulo 3"
+      #       href: ejercicios_m3.qmd
+      #     - text: "Ejercicios Módulo 4"
+      #       href: ejercicios_m4.qmd
+      #     - text: "Ejercicios Módulo 5"
+      #       href: ejercicios_m5.qmd
+      #     - text: "Ejercicios Módulo 7"
+      #       href: ejercicios_m7.qmd
+      # - href: final.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+    toc: true
+    toc-location: left
+    toc-title: Contenido
+    code-copy: true
+    code-overflow: wrap

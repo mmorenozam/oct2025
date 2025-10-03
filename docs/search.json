@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "inicio.html",
+    "href": "inicio.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "inicio.html#quarto",
+    "href": "inicio.html#quarto",
+    "title": "Inicio",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "inicio.html#running-code",
+    "href": "inicio.html#running-code",
+    "title": "Inicio",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "ej_demo.html",
+    "href": "ej_demo.html",
+    "title": "Demo de los ejercicios",
+    "section": "",
+    "text": "Esta sección está dedicada a que los estudiantes puedan resolver ejercicios de una manera más dinámica a lo largo del curso e iré actualizándola con el contenido correspondiente cada semana.\nContiene preguntas de opción múltiple, verdadero/falso, así como también pequeños ejercicios que podrán resolver de manera interactiva. Aquí un par de ejemplos:\n1. La hija de Don Ramón es\n\n\n\n\n\n\n\n\n2. La raíz cuadrada de 23105 es:"
+  }
+]
