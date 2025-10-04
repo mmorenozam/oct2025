@@ -7,11 +7,11 @@ project:
 from: markdown+emoji
 
 website: 
-  title: "Ejemplo"
+  title: "Cursos final 2025"
   image: images/icon1.png
   favicon: images/icon1.png
   open-graph: true
-  # repo-url: https://github.com/mmorenozam/biohack-website
+  repo-url: https://github.com/mmorenozam/oct2025
   navbar:
     logo: images/icon1.png
     title: false
@@ -19,15 +19,15 @@ website:
       - href: inicio.qmd
         text: Inicio
       - href: recursos.qmd
-      - text: Módulos
+      - text: Enlaces
         menu:
-          - text: "Módulo 1"
-            href: https://mmorenozam.github.io/biohack-modulo1/
+          - text: "Webinar 1"
+            href: https://mmorenozam.github.io/edu-sup/edu-sup.html
             target: "_blank"
-      - text: Ejercicios
-        menu:
-          - text: "Demo"
-            href: ej_demo.qmd
+      # - text: Ejercicios
+      #   menu:
+      #     - text: "Demo"
+      #       href: ej_demo.qmd
       #     - text: "Ejercicios Módulo 1"
       #       href: ejercicios_m1.qmd
       #     - text: "Ejercicios Módulo 3"
@@ -43,7 +43,7 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, theme.scss]
+      light: [cosmo]
     toc: true
     toc-location: left
     toc-title: Contenido

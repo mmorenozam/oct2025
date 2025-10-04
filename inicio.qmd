@@ -1,25 +1,377 @@
 ---
-title: "Inicio"
+title: ""
 format: html
+lang: es
+execute: 
+  warning: false
+  message: false
+  error: false
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this 
+# Cronograma
 
 ```{r}
 #| echo: false
-2 * 2
+#| message: false
+#| warning: false
+
+invisible(Sys.setlocale("LC_TIME", "es_ES.UTF-8"))
+library(calendR)
+library(patchwork)
+
+# events1 <- rep(NA, length(seq(as.Date("2025-09-01"), as.Date("2025-09-30"), by = "1 day")))
+# events1[24] <- "webinar1"
+# events1[26] <- "webinar2"
+# 
+# 
+# m1 <- calendR(year = 2025, month = 9,
+#         start = "M",
+#         special.days = events1,
+#         special.col = c("#bfe2f2", "lightgreen"),
+#         text = c("Webinar 1\n19H00 a 21H00", "Webinar 2\n19H00 a 21H00"),
+#         text.pos = c(24,26),
+#         text.size = 2.5,
+#         text.col = "blue")
+
+
+events2 <- rep(NA, length(seq(as.Date("2025-10-01"), as.Date("2025-10-31"), by = "1 day")))
+events2[c(2,16)] <- "webinar1"
+# events2[2] <- "webinar1"
+events2[23] <- "webinar2"
+events2[c(10:12)] <- "feriado"
+events2[c(18, 25)] <- "minicurso"
+
+m2 <- calendR(year = 2025, month = c(10),
+        start = "M",
+        special.days = events2,
+        special.col = c("orange", "pink", "lightgreen","#bfe2f2"),
+        text = c("Webinar 1\n19H00 a 21H00", 
+                 "Webinar 2\n19H00 a 21H00", 
+                 "Webinar 1\n19H00 a 21H00", 
+                 "", "Feriado", "",
+                 "Minicurso 1\n8H30 a 12H30", 
+                 "Minicurso 1\n8H30 a 11H30"),
+        text.pos = c(2,23,16,10:12,18,25),
+        text.size = 2.5,
+        text.col = "blue")
+
+events3 <- rep(NA, length(seq(as.Date("2025-11-01"), as.Date("2025-11-30"), by = "1 day")))
+events3[c(1:4)] <- "feriado"
+events3[c(8,15)] <- "minicurso"
+
+m3 <- calendR(year = 2025, month = c(11),
+        start = "M",
+        special.days = events3,
+        special.col = c("orange", "pink"),
+        text = c("", "Feriado", "Feriado", "",
+                 "Minicurso 2\n8H30 a 12H30",
+                 "Minicurso 2\n8H30 a 11H30"),
+        text.pos = c(1:4,8,15),
+        text.size = 2.5,
+        text.col = "blue")
+
+# m1
+m2
+m3
+
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+# Duración
+
+Webinar 1: **4 horas**
+
+Webinar 2: **2 horas**
+
+Minicurso 1: **7 horas**
+
+Minicurso 2: **7 horas**
+
+**TOTAL: 20 horas**
+
+# Modalidad
+
+100% online
+
+# Requisitos cursos online
+
+**Indispensable:**
+
+-   Computador con al menos 2 GB de RAM y procesador de 64 bits.
+
+**Recomendado:**
+
+-   Conocimientos de estadística báscia.
+
+-   Sistema operativo Windows 10/11
+
+# Webinars
+
+## **Del Papel a la Práctica:**
+
+**Un Análisis Semi-Cuantitativo de la LOES, las Becas y la Profesionalización Docente en Ecuador**
+
+## Horario
+
+Días 2 y 16 de octubre de 19H00 a 21H00. Dos horas cada edición
+
+### Resumen
+
+Este webinar tiene como objetivo analizar críticamente la implementación de la Ley Orgáanica de Educación Superior (LOES), en particular de la Transitoria Décima Tercera y su impacto sobre la profesionalización docente en Ecuador. A través de un enfoque semi-cuantitativo y con base en fuentes oficiales (CES, SENESCYT, INEC), se examinarán:
+
+-   Las metas planteadas respecto a la obtención de títulos de cuarto nivel por parte del cuerpo docente universitario.
+-   El diseño y ejecución de los programas de becas nacionales e internacionales.
+-   La brecha entre los objetivos normativos y la realidad institucional.
+-   La compensación de becarios y la evidencia de fuga de cerebros.
+
+Se busca ofrecer un espacio de reflexión basado en datos, así como provocar un debate informado sobre los desafíos actuales de la educación superior en el país.
+
+### Objetivos del webinar
+
+-   Exponer los alcances y límites de la LOES en materia de formación doctoral.
+-   Presentar evidencia sobre la efectividad y retorno de los programas de becas.
+-   Aportar a la discusión sobre políticas de largo plazo para la profesionalización docente.
+
+### Resumen para el flyer
+
+En este webinar exploraremos cómo la Ley Orgánica de Educación Superior (LOES) planteó una ambiciosa meta: profesionalizar al cuerpo docente con miles de PhDs hasta 2017. Pero ¿qué pasó en la práctica?
+
+A través de un análisis semi-cuantitativo con datos del CES, SENESCYT e INEC, revisaremos el diseño, implementación y resultados de los programas de becas nacionales e internacionales. Se discutirá el impacto real de la Transitoria Décima Tercera, los vacíos en planificación, la fuga de cerebros y el cumplimiento (o no) de la compensación académica.
+
+Una historia donde la norma fue apresurada, pero la ejecución dejó dudas. Un espacio para pensar el presente y futuro de la docencia universitaria en Ecuador.
+
+¿A quién podría interesar este webinar?
+
+-   Docentes universitarios y autoridades académicas
+-   Estudiantes de posgrado, especialmente de doctorado
+-   Gestores de política pública en educación superior
+-   Investigadores en temas de movilidad académica, formación docente y planificación educativa
+-   Público interesado en el análisis de impacto de políticas de becas y educación internacional
+
+### Resumen redes sociales
+
+Este webinar abordará el impacto de la LOES en la profesionalización docente, evaluando la efectividad de los programas de becas, las brechas entre la norma y la práctica, y los desafíos actuales como la fuga de cerebros y la planificación a futuro en la educación superior en Ecuador.
+
+## **¿Cómo (no) Mentir con Estadística?:**
+
+**Cuando los hechos no van de la mano con las cifras**
+
+### Horario
+
+Jueves 23 de octubre de 19H00 a 21H00
+
+### Resumen
+
+En este webinar exploramos varios ejemplos de como las estadísticas pueden ser usadas para persuadir o engañar. Partiendo del libro clásico de Darrell Huff "¿Cómo mentir con estadística?", veremos las formas más comunes de manipular los hechos tales como el uso de muestras sesgadas, escoger promedios convenientes e incluso, visitamos como el propio Huff hizo uso de estas en un libro de su autoría que afortunadamente jamás vio la luz.
+
+### Objetivos
+
+-   Comprender varias de las formas en que las estadísticas pueden manipularse.
+-   Incentivar el pensamiento crítico en los asistentes para siempre cuestionar las cifras que presenten medios oficiales y de comunicación.
+
+### Resumen para el flyer/redes
+
+Aprende a identificar y evitar las técnicas más comunes para manipular datos tales como muestras sesgadas, selección del promedio, ejes truncados, uso indebido del valor p y más, a través de ejemplos reales. Ideal para comunicadores, periodistas, estudiantes y profesionales que usan datos para tomar decisiones.
+
+# Minicursos
+
+## **Minicurso de Estadística Aplicada con R**
+
+<!-- **Desde estadística descriptiva hasta análisis de varianza. Todo lo básico en 7 horas.** -->
+
+### Horario
+
+Sábado 18 de octubre de 8H30 a 12H30
+
+Sábado 25 de octubre de 8H30 a 11H30
+
+Total: 7 horas clase
+
+### Descripción del curso
+
+Este minicurso tiene como objetivo principal brindar al estudiante herramientas estadísticas de aplicación inmediata mediante el uso del lenguaje R. El programa está diseñado para una audiencia diversa, sin requerir un conocimiento profundo de la teoría estadística ni experiencia previa en programación.
+
+Desde la primera hora de clase, el participante podrá comenzar a utilizar R para el análisis de datos, aprendiendo de forma progresiva la aplicación práctica de distintas pruebas estadísticas —desde pruebas de hipótesis básicas hasta análisis de varianza (ANOVA).
+
+El curso se complementa con ejercicios y actividades de aprendizaje, orientados a reforzar los conocimientos adquiridos y fomentar la autonomía en el uso de R. Al finalizar, los asistentes tendrán la posibilidad de obtener un certificado de aprobación, demostrando su dominio de las herramientas vistas durante el taller.
+
+### Objetivos de aprendizaje
+
+-   Utilizar el entorno de R y RStudio para realizar operaciones básicas y gestionar conjuntos de datos.
+
+-   Aplicar conceptos fundamentales de estadística descriptiva para resumir y explorar datos numéricos y categóricos.
+
+-   Ejecutar pruebas de hipótesis básicas (como t-test y pruebas de proporciones) utilizando funciones de R.
+
+-   Realizar análisis de varianza (ANOVA) para comparar medias entre múltiples grupos.
+
+-   Interpretar resultados estadísticos y presentarlos de manera clara y sustentada.
+
+-   Integrar buenas prácticas de programación y organización de proyectos en R para análisis reproducibles.
+
+### Contenidos
+
++-----------------------------------------------------------+------------------------------------------------+
+| Módulo                                                    | Contenido                                      |
++===========================================================+================================================+
+| Módulo 1: Generalidades e Introducción a R                | 1.  Generalidades                              |
+|                                                           |                                                |
+| Duración: 2 horas                                         |     i.  Bienvenida e introducción              |
+|                                                           |                                                |
+|                                                           |     ii. Instalación de R, RStudio              |
+|                                                           |                                                |
+|                                                           |     iii. Proyectos de R                        |
+|                                                           |                                                |
+|                                                           |     iv. Reglas generales de sintaxis de R      |
+|                                                           |                                                |
+|                                                           | 2.  Introducción a R                           |
+|                                                           |                                                |
+|                                                           |     i.  Tipos de datos y operadores            |
+|                                                           |                                                |
+|                                                           |     ii. Tipos de objetos                       |
+|                                                           |                                                |
+|                                                           |     iii. Paquetes y librerías                  |
+|                                                           |                                                |
+|                                                           |     iv. Importación de datos                   |
+|                                                           |                                                |
+|                                                           | 3.  Operaciones estadísticas básicas en R      |
+|                                                           |                                                |
+|                                                           | 4.  Estadísticos descriptivos                  |
++-----------------------------------------------------------+------------------------------------------------+
+| Módulo 2: Introducción a la Estadística Inferencial con R | 1.  Breve repaso de conceptos estadísticos     |
+|                                                           |                                                |
+| Duración: 2 horas                                         |     i.  Muestras, poblaciones y muestreos      |
+|                                                           |                                                |
+|                                                           |     ii. Parámetros de población y muestreo     |
+|                                                           |                                                |
+|                                                           |     iii. Intervalos de confianza               |
+|                                                           |                                                |
+|                                                           |     iv. Pruebas de hipótesis                   |
+|                                                           |                                                |
+|                                                           | 2.  Pruebas estadísticas paramétricas          |
+|                                                           |                                                |
+|                                                           |     i.  Prueba t de una muestra                |
+|                                                           |                                                |
+|                                                           |     ii. Prueba t de muestras independientes    |
+|                                                           |                                                |
+|                                                           |     iii. Prueba t de muestras emparejadas      |
+|                                                           |                                                |
+|                                                           | 3.  Pruebas estadísticas no paramétricas       |
+|                                                           |                                                |
+|                                                           |     i.  Prueba Wilcoxon para una muestra       |
+|                                                           |                                                |
+|                                                           |     ii. Prueba Wilcoxon para dos muestras      |
++-----------------------------------------------------------+------------------------------------------------+
+| Módulo 3: Estadística Paramétrica con R                   | 1.  Análisis de Varianza (ANOVA)               |
+|                                                           |                                                |
+| Duración: 2 horas                                         |     i.  Supuestos del ANOVA                    |
+|                                                           |                                                |
+|                                                           |     ii. ANOVA de una vía                       |
+|                                                           |                                                |
+|                                                           |     iii. Diagnósticos del ANOVA                |
+|                                                           |                                                |
+|                                                           |     iv. Comparaciones múltiples                |
+|                                                           |                                                |
+|                                                           |     v.  Prueba de Kruskal-Wallis               |
+|                                                           |                                                |
+|                                                           | 2.  ANOVA de múltiples vías                    |
+|                                                           |                                                |
+|                                                           |     i.  ANOVA aditivo de dos vías              |
+|                                                           |                                                |
+|                                                           |     ii. ANOVA no aditivo de dos vías           |
++-----------------------------------------------------------+------------------------------------------------+
+| Módulo 4: Exportación de resultados                       | 1.  Exportar tablas en formatos de csv y Excel |
+|                                                           |                                                |
+| Duración: 1 hora                                          | 2.  Exportar tablas en formato de Word         |
++-----------------------------------------------------------+------------------------------------------------+
+
+## **Minicurso de Visualización de Datos en R**
+
+### Horario
+
+Sábado 8 de noviembre de 8H30 a 12H30
+
+Sábado 15 de noviembre de 8H30 a 11H30
+
+### Descripción del curso
+
+Este minicurso tiene como objetivo principal proveer al estudiante de herramientas prácticas de visualización de datos para su inmediata aplicación. El plan de estudio está diseñado para una audiencia amplia, sin asumir un conocimiento profundo de la teoría detrás de los métodos o de la programación en R.
+
+Desde la primera hora de clase, el cursante será capaz de crear y personalizar gráficos con {ggplot2}, explorando paso a paso cómo transformar datos en representaciones visuales claras y efectivas. A lo largo de las siete horas de curso, se trabajará en la construcción de distintos tipos de gráficos —de dispersión, barras, boxplots, líneas y densidades— además de la incorporación de temas, colores y etiquetas para una presentación profesional.
+
+El curso se complementa con tareas prácticas de aprendizaje que reforzarán los conocimientos adquiridos y permitirán a los asistentes optar por un certificado de aprobación.
+
+### Objetivos de aprendizaje
+
+-   Comprender los principios básicos de la visualización de datos y su importancia en el análisis estadístico.
+
+-   Emplear el paquete {ggplot2} para construir gráficos de alta calidad a partir de datos en R.
+
+-   Personalizar elementos visuales (colores, temas, etiquetas, escalas) para mejorar la comunicación de resultados.
+
+-   Combinar y organizar múltiples visualizaciones para explorar relaciones entre variables.
+
+-   Aplicar visualización exploratoria para identificar patrones, tendencias y valores atípicos en los datos.
+
+-   Exportar y documentar gráficos reproducibles para presentaciones, reportes y publicaciones.
+
+## Contenidos
+
++---------------------------------------------------------+-----------------------------------------------+
+| Módulo                                                  | Contenido                                     |
++=========================================================+===============================================+
+| Módulo 1: Breve Introducción a R                        | 1.  Generalidades                             |
+|                                                         |                                               |
+| Duración: 1 hora                                        |     i.  Bienvenida                            |
+|                                                         |                                               |
+|                                                         |     ii. Instalación de R, RStudio y Quarto    |
+|                                                         |                                               |
+|                                                         | 2.  Funcionalidades básicas                   |
+|                                                         |                                               |
+|                                                         |     i.  Librerías y paquetes                  |
+|                                                         |                                               |
+|                                                         |     ii. Proyectos de R                        |
+|                                                         |                                               |
+|                                                         |     iii. Reglas generales de sintaxis de R    |
+|                                                         |                                               |
+|                                                         |     iv. Importación de datos                  |
++---------------------------------------------------------+-----------------------------------------------+
+| Módulo 2: Introducción a la visualización de datos en R | 1.  Introducción a {ggplot2}                  |
+|                                                         |                                               |
+| Duración: 4 horas                                       |     i.  Función de inicio                     |
+|                                                         |                                               |
+|                                                         |     ii. Geometrías                            |
+|                                                         |                                               |
+|                                                         |     iii. Mapeo estético y capas               |
+|                                                         |                                               |
+|                                                         | 2.  Tipos de gráficos                         |
+|                                                         |                                               |
+|                                                         |     i.  Univariados                           |
+|                                                         |                                               |
+|                                                         |     ii. Bivariados                            |
+|                                                         |                                               |
+|                                                         |     iii. Multivariados                        |
+|                                                         |                                               |
+|                                                         | 3.  Análisis Exploratorio de Datos            |
+|                                                         |                                               |
+|                                                         | 4.  Gráficos especiales                       |
+|                                                         |                                               |
+|                                                         |     i.  Figuras con estadísticos              |
+|                                                         |                                               |
+|                                                         |     ii. Mapas de calor                        |
+|                                                         |                                               |
+|                                                         |     iii. Matriz de correlación                |
+|                                                         |                                               |
+|                                                         |     iv. Diagrama aluvial                      |
++---------------------------------------------------------+-----------------------------------------------+
+| Modulo 3: Creación de Presentaciones con Quarto         | 1.  ¿Qué es Quarto?                           |
+|                                                         |                                               |
+| Duración: 2 horas                                       | 2.  Estructura de un documento de Quarto      |
+|                                                         |                                               |
+|                                                         | 3.  Creando mi primera presentación de Quarto |
++---------------------------------------------------------+-----------------------------------------------+
+
+<!-- ## Minicurso 3: -->
+
+<!-- **Inteligencia Artificial y Programación Estadística en R:** -->
+
+<!-- Uso de distintos modelos de inteligencia artificial para ayudarnos a programar en R. -->

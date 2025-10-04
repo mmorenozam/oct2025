@@ -3,7 +3,7 @@ title: Demo de los ejercicios
 format: 
   live-html:
     theme:
-      light: [cosmo, theme.scss]
+      light: [cosmo]
     toc: true
     toc-location: left
     toc-title: Contenido

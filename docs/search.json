@@ -2,9 +2,9 @@
   {
     "objectID": "inicio.html",
     "href": "inicio.html",
-    "title": "Inicio",
+    "title": "Duración",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "Webinar 1: 4 horas\nWebinar 2: 2 horas\nMinicurso 1: 7 horas\nMinicurso 2: 7 horas\nTOTAL: 20 horas"
   },
   {
     "objectID": "inicio.html#quarto",
@@ -26,5 +26,103 @@
     "title": "Demo de los ejercicios",
     "section": "",
     "text": "Esta sección está dedicada a que los estudiantes puedan resolver ejercicios de una manera más dinámica a lo largo del curso e iré actualizándola con el contenido correspondiente cada semana.\nContiene preguntas de opción múltiple, verdadero/falso, así como también pequeños ejercicios que podrán resolver de manera interactiva. Aquí un par de ejemplos:\n1. La hija de Don Ramón es\n\n\n\n\n\n\n\n\n2. La raíz cuadrada de 23105 es:"
+  },
+  {
+    "objectID": "inicio.html#del-papel-a-la-práctica",
+    "href": "inicio.html#del-papel-a-la-práctica",
+    "title": "Cronograma",
+    "section": "Del Papel a la Práctica:",
+    "text": "Del Papel a la Práctica:\nUn Análisis Semi-Cuantitativo de la LOES, las Becas y la Profesionalización Docente en Ecuador"
+  },
+  {
+    "objectID": "inicio.html#webinar-2",
+    "href": "inicio.html#webinar-2",
+    "title": "Inicio",
+    "section": "Webinar 2:",
+    "text": "Webinar 2:\nCómo (no) Mentir con Estadística:"
+  },
+  {
+    "objectID": "inicio.html#minicurso-1",
+    "href": "inicio.html#minicurso-1",
+    "title": "Inicio",
+    "section": "Minicurso 1:",
+    "text": "Minicurso 1:\nAnálisis Estadístico en R: Desde estadística descriptiva hasta análisis de varianza. Todo lo básico en 4 horas."
+  },
+  {
+    "objectID": "inicio.html#minicurso-2",
+    "href": "inicio.html#minicurso-2",
+    "title": "Inicio",
+    "section": "Minicurso 2:",
+    "text": "Minicurso 2:\nVisualización de Datos en R: Generación de gráficos profesionales listos para publicación sin complicaciones."
+  },
+  {
+    "objectID": "inicio.html#del-papel-a-la-práctica-un-análisis-semi-cuantitativo-de-la-loes-las-becas-y-la-profesionalización-docente-en-ecuador",
+    "href": "inicio.html#del-papel-a-la-práctica-un-análisis-semi-cuantitativo-de-la-loes-las-becas-y-la-profesionalización-docente-en-ecuador",
+    "title": "Cronograma",
+    "section": "Del Papel a la Práctica: Un Análisis Semi-Cuantitativo de la LOES, las Becas y la Profesionalización Docente en Ecuador",
+    "text": "Del Papel a la Práctica: Un Análisis Semi-Cuantitativo de la LOES, las Becas y la Profesionalización Docente en Ecuador\n\nResumen\nEste webinar tiene como objetivo analizar críticamente la implementación de la Ley Orgáanica de Educación Superior (LOES), en particular de la Transitoria Décima Tercera y su impacto sobre la profesionalización docente en Ecuador. A través de un enfoque semi-cuantitativo y con base en fuentes oficiales (CES, SENESCYT, INEC), se examinarán:\n\nLas metas planteadas respecto a la obtención de títulos de cuarto nivel por parte del cuerpo docente universitario.\nEl diseño y ejecución de los programas de becas nacionales e internacionales.\nLa brecha entre los objetivos normativos y la realidad institucional.\nLa compensación de becarios y la evidencia de fuga de cerebros.\n\nSe busca ofrecer un espacio de reflexión basado en datos, así como provocar un debate informado sobre los desafíos actuales de la educación superior en el país.\n\n\nObjetivos del webinar\n\nExponer los alcances y límites de la LOES en materia de formación doctoral.\nPresentar evidencia sobre la efectividad y retorno de los programas de becas.\nAportar a la discusión sobre políticas de largo plazo para la profesionalización docente.\n\n\n\nResumen para el flyer\nEn este webinar exploraremos cómo la Ley Orgánica de Educación Superior (LOES) planteó una ambiciosa meta: profesionalizar al cuerpo docente con miles de PhDs hasta 2017. Pero ¿qué pasó en la práctica?\nA través de un análisis semi-cuantitativo con datos del CES, SENESCYT e INEC, revisaremos el diseño, implementación y resultados de los programas de becas nacionales e internacionales. Se discutirá el impacto real de la Transitoria Décima Tercera, los vacíos en planificación, la fuga de cerebros y el cumplimiento (o no) de la compensación académica.\nUna historia donde la norma fue apresurada, pero la ejecución dejó dudas. Un espacio para pensar el presente y futuro de la docencia universitaria en Ecuador.\n¿A quién podría interesar este webinar?\n\nDocentes universitarios y autoridades académicas\nEstudiantes de posgrado, especialmente de doctorado\nGestores de política pública en educación superior\nInvestigadores en temas de movilidad académica, formación docente y planificación educativa\nPúblico interesado en el análisis de impacto de políticas de becas y educación internacional\n\n\n\nResumen redes sociales\nEste webinar abordará el impacto de la LOES en la profesionalización docente, evaluando la efectividad de los programas de becas, las brechas entre la norma y la práctica, y los desafíos actuales como la fuga de cerebros y la planificación a futuro en la educación superior en Ecuador."
+  },
+  {
+    "objectID": "inicio.html#cómo-no-mentir-con-estadística",
+    "href": "inicio.html#cómo-no-mentir-con-estadística",
+    "title": "Cronograma",
+    "section": "¿Cómo (no) Mentir con Estadística?:",
+    "text": "¿Cómo (no) Mentir con Estadística?:\nCuando los hechos no van de la mano con las cifras\n\nHorario\nJueves 23 de octubre de 19H00 a 21H00\n\n\nResumen\nEn este webinar exploramos varios ejemplos de como las estadísticas pueden ser usadas para persuadir o engañar. Partiendo del libro clásico de Darrell Huff “¿Cómo mentir con estadística?”, veremos las formas más comunes de manipular los hechos tales como el uso de muestras sesgadas, escoger promedios convenientes e incluso, visitamos como el propio Huff hizo uso de estas en un libro de su autoría que afortunadamente jamás vio la luz.\n\n\nObjetivos\n\nComprender varias de las formas en que las estadísticas pueden manipularse.\nIncentivar el pensamiento crítico en los asistentes para siempre cuestionar las cifras que presenten medios oficiales y de comunicación.\n\n\n\nResumen para el flyer/redes\nAprende a identificar y evitar las técnicas más comunes para manipular datos tales como muestras sesgadas, selección del promedio, ejes truncados, uso indebido del valor p y más, a través de ejemplos reales. Ideal para comunicadores, periodistas, estudiantes y profesionales que usan datos para tomar decisiones."
+  },
+  {
+    "objectID": "inicio.html#análisis-estadístico-en-r",
+    "href": "inicio.html#análisis-estadístico-en-r",
+    "title": "Cronograma",
+    "section": "Análisis Estadístico en R:",
+    "text": "Análisis Estadístico en R:\nDesde estadística descriptiva hasta análisis de varianza. Todo lo básico en 4 horas.\n##Visualización de Datos en R: Generación de gráficos profesionales listos para publicación sin complicaciones."
+  },
+  {
+    "objectID": "inicio.html#cómo-no-mentir-con-estadística-cuando-los-hechos-no-van-de-mano-con-las-cifras",
+    "href": "inicio.html#cómo-no-mentir-con-estadística-cuando-los-hechos-no-van-de-mano-con-las-cifras",
+    "title": "Cronograma",
+    "section": "Cómo (no) Mentir con Estadística: Cuando los hechos no van de mano con las cifras",
+    "text": "Cómo (no) Mentir con Estadística: Cuando los hechos no van de mano con las cifras\n\nResumen\nEn este webinar exploramos varios ejemplos de como las estadísticas pueden ser usadas para persuadir o engañar. Partiendo del libro clásico de Darrell Huff “¿Cómo mentir con estadística?”, veremos las formas más comunes de manipular los hechos tales como el uso de muestras sesgadas, escoger promedios convenientes e incluso, exploraremos como el propio Huff hizo uso de estas en un libro de su autoría que afortunadamente jamás vio la luz.\n\n\nObjetivos\n\n\nResumen para el flyer\n\n\nResumen redes sociales"
+  },
+  {
+    "objectID": "inicio.html#cómo-no-mentir-con-estadística-cuando-los-hechos-no-van-de-la-mano-con-las-cifras",
+    "href": "inicio.html#cómo-no-mentir-con-estadística-cuando-los-hechos-no-van-de-la-mano-con-las-cifras",
+    "title": "Cronograma",
+    "section": "Cómo (no) Mentir con Estadística: Cuando los hechos no van de la mano con las cifras",
+    "text": "Cómo (no) Mentir con Estadística: Cuando los hechos no van de la mano con las cifras\n\nResumen\nEn este webinar exploramos varios ejemplos de como las estadísticas pueden ser usadas para persuadir o engañar. Partiendo del libro clásico de Darrell Huff “¿Cómo mentir con estadística?”, veremos las formas más comunes de manipular los hechos tales como el uso de muestras sesgadas, escoger promedios convenientes e incluso, visitamos como el propio Huff hizo uso de estas en un libro de su autoría que afortunadamente jamás vio la luz.\n\n\nObjetivos\n\nComprender varias de las formas en que las estadísticas pueden manipularse.\nIncentivar el pensamiento crítico en los asistentes para siempre cuestionar las cifras que presenten medios oficiales y de comunicación.\n\n\n\nResumen para el flyer/redes\nAprende a identificar y evitar las técnicas más comunes para manipular datos tales como muestras sesgadas, selección del promedio, ejes truncados, uso indebido del valor p y más, a través de ejemplos reales. Ideal para comunicadores, periodistas, estudiantes y profesionales que usan datos para tomar decisiones."
+  },
+  {
+    "objectID": "inicio.html#minicurso-de-estadística-aplicada-con-r",
+    "href": "inicio.html#minicurso-de-estadística-aplicada-con-r",
+    "title": "Cronograma",
+    "section": "Minicurso de Estadística Aplicada con R",
+    "text": "Minicurso de Estadística Aplicada con R\n\n\nHorario\nSábado 18 de octubre de 8H30 a 12H30\nSábado 25 de octubre de 8H30 a 11H30\nTotal: 7 horas clase\n\n\nDescripción del curso\nEste minicurso tiene como objetivo principal brindar al estudiante herramientas estadísticas de aplicación inmediata mediante el uso del lenguaje R. El programa está diseñado para una audiencia diversa, sin requerir un conocimiento profundo de la teoría estadística ni experiencia previa en programación.\nDesde la primera hora de clase, el participante podrá comenzar a utilizar R para el análisis de datos, aprendiendo de forma progresiva la aplicación práctica de distintas pruebas estadísticas —desde pruebas de hipótesis básicas hasta análisis de varianza (ANOVA).\nEl curso se complementa con ejercicios y actividades de aprendizaje, orientados a reforzar los conocimientos adquiridos y fomentar la autonomía en el uso de R. Al finalizar, los asistentes tendrán la posibilidad de obtener un certificado de aprobación, demostrando su dominio de las herramientas vistas durante el taller.\n\n\nObjetivos de aprendizaje\n\nUtilizar el entorno de R y RStudio para realizar operaciones básicas y gestionar conjuntos de datos.\nAplicar conceptos fundamentales de estadística descriptiva para resumir y explorar datos numéricos y categóricos.\nEjecutar pruebas de hipótesis básicas (como t-test y pruebas de proporciones) utilizando funciones de R.\nRealizar análisis de varianza (ANOVA) para comparar medias entre múltiples grupos.\nInterpretar resultados estadísticos y presentarlos de manera clara y sustentada.\nIntegrar buenas prácticas de programación y organización de proyectos en R para análisis reproducibles.\n\n\n\nContenidos\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Generalidades e Introducción a R\nDuración: 2 horas\n\nGeneralidades\n\nBienvenida e introducción\nInstalación de R, RStudio\nProyectos de R\nReglas generales de sintaxis de R\n\nIntroducción a R\n\nTipos de datos y operadores\nTipos de objetos\nPaquetes y librerías\nImportación de datos\n\nOperaciones estadísticas básicas en R\nEstadísticos descriptivos\n\n\n\nMódulo 2: Introducción a la Estadística Inferencial con R\nDuración: 2 horas\n\nBreve repaso de conceptos estadísticos\n\nMuestras, poblaciones y muestreos\nParámetros de población y muestreo\nIntervalos de confianza\nPruebas de hipótesis\n\nPruebas estadísticas paramétricas\n\nPrueba t de una muestra\nPrueba t de muestras independientes\nPrueba t de muestras emparejadas\n\nPruebas estadísticas no paramétricas\n\nPrueba Wilcoxon para una muestra\nPrueba Wilcoxon para dos muestras\n\n\n\n\nMódulo 3: Estadística Paramétrica con R\nDuración: 2 horas\n\nAnálisis de Varianza (ANOVA)\n\nSupuestos del ANOVA\nANOVA de una vía\nDiagnósticos del ANOVA\nComparaciones múltiples\nPrueba de Kruskal-Wallis\n\nANOVA de múltiples vías\n\nANOVA aditivo de dos vías\nANOVA no aditivo de dos vías\n\n\n\n\nMódulo 4: Exportación de resultados\nDuración: 1 hora\n\nExportar tablas en formatos de csv y Excel\nExportar tablas en formato de Word"
+  },
+  {
+    "objectID": "inicio.html#visualización-de-datos-en-r",
+    "href": "inicio.html#visualización-de-datos-en-r",
+    "title": "Cronograma",
+    "section": "Visualización de Datos en R",
+    "text": "Visualización de Datos en R\nGeneración de gráficos profesionales listos para publicación sin complicaciones."
+  },
+  {
+    "objectID": "inicio.html#minicurso-de-visualización-de-datos-en-r",
+    "href": "inicio.html#minicurso-de-visualización-de-datos-en-r",
+    "title": "Cronograma",
+    "section": "Minicurso de Visualización de Datos en R",
+    "text": "Minicurso de Visualización de Datos en R\n\nHorario\nSábado 8 de noviembre de 8H30 a 12H30\nSábado 15 de noviembre de 8H30 a 11H30\n\n\nDescripción del curso\nEste minicurso tiene como objetivo principal proveer al estudiante de herramientas prácticas de visualización de datos para su inmediata aplicación. El plan de estudio está diseñado para una audiencia amplia, sin asumir un conocimiento profundo de la teoría detrás de los métodos o de la programación en R.\nDesde la primera hora de clase, el cursante será capaz de crear y personalizar gráficos con {ggplot2}, explorando paso a paso cómo transformar datos en representaciones visuales claras y efectivas. A lo largo de las siete horas de curso, se trabajará en la construcción de distintos tipos de gráficos —de dispersión, barras, boxplots, líneas y densidades— además de la incorporación de temas, colores y etiquetas para una presentación profesional.\nEl curso se complementa con tareas prácticas de aprendizaje que reforzarán los conocimientos adquiridos y permitirán a los asistentes optar por un certificado de aprobación.\n\n\nObjetivos de aprendizaje\n\nComprender los principios básicos de la visualización de datos y su importancia en el análisis estadístico.\nEmplear el paquete {ggplot2} para construir gráficos de alta calidad a partir de datos en R.\nPersonalizar elementos visuales (colores, temas, etiquetas, escalas) para mejorar la comunicación de resultados.\nCombinar y organizar múltiples visualizaciones para explorar relaciones entre variables.\nAplicar visualización exploratoria para identificar patrones, tendencias y valores atípicos en los datos.\nExportar y documentar gráficos reproducibles para presentaciones, reportes y publicaciones."
+  },
+  {
+    "objectID": "inicio.html#horario",
+    "href": "inicio.html#horario",
+    "title": "Cronograma",
+    "section": "Horario",
+    "text": "Horario\nDías 2 y 16 de octubre de 19H00 a 21H00. Dos horas cada edición\n\nResumen\nEste webinar tiene como objetivo analizar críticamente la implementación de la Ley Orgáanica de Educación Superior (LOES), en particular de la Transitoria Décima Tercera y su impacto sobre la profesionalización docente en Ecuador. A través de un enfoque semi-cuantitativo y con base en fuentes oficiales (CES, SENESCYT, INEC), se examinarán:\n\nLas metas planteadas respecto a la obtención de títulos de cuarto nivel por parte del cuerpo docente universitario.\nEl diseño y ejecución de los programas de becas nacionales e internacionales.\nLa brecha entre los objetivos normativos y la realidad institucional.\nLa compensación de becarios y la evidencia de fuga de cerebros.\n\nSe busca ofrecer un espacio de reflexión basado en datos, así como provocar un debate informado sobre los desafíos actuales de la educación superior en el país.\n\n\nObjetivos del webinar\n\nExponer los alcances y límites de la LOES en materia de formación doctoral.\nPresentar evidencia sobre la efectividad y retorno de los programas de becas.\nAportar a la discusión sobre políticas de largo plazo para la profesionalización docente.\n\n\n\nResumen para el flyer\nEn este webinar exploraremos cómo la Ley Orgánica de Educación Superior (LOES) planteó una ambiciosa meta: profesionalizar al cuerpo docente con miles de PhDs hasta 2017. Pero ¿qué pasó en la práctica?\nA través de un análisis semi-cuantitativo con datos del CES, SENESCYT e INEC, revisaremos el diseño, implementación y resultados de los programas de becas nacionales e internacionales. Se discutirá el impacto real de la Transitoria Décima Tercera, los vacíos en planificación, la fuga de cerebros y el cumplimiento (o no) de la compensación académica.\nUna historia donde la norma fue apresurada, pero la ejecución dejó dudas. Un espacio para pensar el presente y futuro de la docencia universitaria en Ecuador.\n¿A quién podría interesar este webinar?\n\nDocentes universitarios y autoridades académicas\nEstudiantes de posgrado, especialmente de doctorado\nGestores de política pública en educación superior\nInvestigadores en temas de movilidad académica, formación docente y planificación educativa\nPúblico interesado en el análisis de impacto de políticas de becas y educación internacional\n\n\n\nResumen redes sociales\nEste webinar abordará el impacto de la LOES en la profesionalización docente, evaluando la efectividad de los programas de becas, las brechas entre la norma y la práctica, y los desafíos actuales como la fuga de cerebros y la planificación a futuro en la educación superior en Ecuador."
+  },
+  {
+    "objectID": "inicio.html#contenidos-1",
+    "href": "inicio.html#contenidos-1",
+    "title": "Cronograma",
+    "section": "Contenidos",
+    "text": "Contenidos\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Breve Introducción a R\nDuración: 1 hora\n\nGeneralidades\n\nBienvenida\nInstalación de R, RStudio y Quarto\n\nFuncionalidades básicas\n\nLibrerías y paquetes\nProyectos de R\nReglas generales de sintaxis de R\nImportación de datos\n\n\n\n\nMódulo 2: Introducción a la visualización de datos en R\nDuración: 4 horas\n\nIntroducción a {ggplot2}\n\nFunción de inicio\nGeometrías\nMapeo estético y capas\n\nTipos de gráficos\n\nUnivariados\nBivariados\nMultivariados\n\nAnálisis Exploratorio de Datos\nGráficos especiales\n\nFiguras con estadísticos\nMapas de calor\nMatriz de correlación\nDiagrama aluvial\n\n\n\n\nModulo 3: Creación de Presentaciones con Quarto\nDuración: 2 horas\n\n¿Qué es Quarto?\nEstructura de un documento de Quarto\nCreando mi primera presentación de Quarto"
   }
 ]
